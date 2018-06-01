@@ -1,0 +1,45 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "name": "computer",
+      "cost": 233100,
+      "quantity": 20
+    },
+    {
+      "name": "Monitor",
+      "cost": "550000",
+      "quantity": "10",
+      "id": 14
+    },
+    {
+      "name": "CPU",
+      "cost": "350000",
+      "quantity": "10",
+      "id": 15
+    },
+    {
+      "name": "Memory",
+      "cost": "32000",
+      "quantity": "10",
+      "id": 16
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
