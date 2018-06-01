@@ -11,6 +11,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { RestProvider } from '../providers/rest/rest';
 import {HttpClientModule} from "@angular/common/http";
 import {FormsModule} from "@angular/forms";
+import {SMS} from "@ionic-native/sms";
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import {FormsModule} from "@angular/forms";
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    RestProvider
+    RestProvider,
+    SMS
   ]
 })
 export class AppModule {}
